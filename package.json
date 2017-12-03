@@ -1,6 +1,6 @@
 {
   "name": "kafka-sse-echo",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Sending new data on kafka topics over sse to everyone that wants to listen.",
   "main": "index.js",
   "scripts": {
