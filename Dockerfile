@@ -11,4 +11,4 @@ RUN yarn
 
 COPY index.js .
 
-CMD ./node_modules/.bin/micro src/index.js
+CMD ./node_modules/.bin/micro index.js

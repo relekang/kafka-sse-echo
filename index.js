@@ -3,7 +3,7 @@ const kafka = require('kafka-node');
 
 const sse = new SseChannel({ cors: { origins: ['*'] } });
 
-const kafkaHost = process.env.KAFKA_URL || 'localhost:2181';
+const kafkaHost = process.env.KAFKA_URL || 'localhost:9092';
 const topics = (process.env.TOPICS || '').split(',').map(topic => ({ topic }));
 const client = new kafka.KafkaClient({ kafkaHost });
 
