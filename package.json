@@ -4,6 +4,7 @@
   "description": "Sending new data on kafka topics over sse to everyone that wants to listen.",
   "main": "index.js",
   "scripts": {
+    "up": "docker-compose up",
     "start": "micro index.js",
     "dev": "micro-dev index.js",
     "lint": "prettier -l index.js package.json readme.md",
