@@ -8,4 +8,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* Add initial implementation ([b68df9d](https://github.com/relekang/kafka-sse-echo/commit/b68df9d))
+#### Add initial implementation ([b68df9d](https://github.com/relekang/kafka-sse-echo/commit/b68df9d))
+* Post messages from kafka over server-sent events
+* Listen to multiple topics
+* Ping events for server-sent events
+* Configuration of topics and kafka connection string
