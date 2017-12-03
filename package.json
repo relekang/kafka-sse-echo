@@ -1,0 +1,26 @@
+{
+  "name": "kafka-sse-echo",
+  "version": "0.0.0",
+  "description": "Sending new data on kafka topics over sse to everyone that wants to listen.",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro index.js",
+    "dev": "micro-dev index.js",
+    "lint": "prettier -l index.js package.json readme.md",
+    "format": "prettier --write index.js package.json readme.md",
+    "test": "echo '¯\\_(ツ)_/¯'",
+    "release": "standard-version -i changelog.md"
+  },
+  "author": "Rolf Erik Lekang <me@rolflekang.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "micro-dev": "^1.4.0",
+    "prettier": "^1.8.2",
+    "standard-version": "^4.2.0"
+  },
+  "dependencies": {
+    "kafka-node": "^2.3.0",
+    "micro": "^9.0.2",
+    "sse-channel": "^3.0.1"
+  }
+}
